@@ -1,6 +1,9 @@
+import NavBar from '../components/NavBar'
+
 function Home(){
     return(
-        <div className="text-center">
+        <div>
+            <NavBar />
             <h1>Home</h1>
         </div>
     )

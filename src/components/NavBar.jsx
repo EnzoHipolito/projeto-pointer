@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-function Header() {
+function NavBar() {
     return (
-        <div className="bg-blue-500 w-full h-full">
+        <div className="bg-blue-500 w-65 h-screen">
             <nav>
                 <Link to={'/'}>Home</Link>
                 <Link to={'/login'}>Login</Link>
@@ -11,4 +11,4 @@ function Header() {
         </div>
     )
 }
-export default Header
+export default NavBar
